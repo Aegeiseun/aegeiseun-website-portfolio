@@ -17,32 +17,44 @@ export const hero = {
   name: "JP",
   role: "Media Buyer & Software Developer",
   tagline:
-    "I build and ship — campaigns that convert, and products built with no-code/low-code tools. Placeholder tagline, swap for real copy.",
+    "I scale paid social campaigns from $3K to $60K/month on Meta & TikTok, and build the systems behind them with no-code/low-code tools.",
 };
 
-// PLACEHOLDER — replace with real bio / resume summary.
 export const about = {
   heading: "About",
   paragraphs: [
-    "Placeholder bio: JP is a media buyer and software developer who treats every campaign and every build like a system to be optimized — the kind of person equally comfortable in an ads dashboard and a no-code editor.",
-    "Placeholder: years of experience spanning performance marketing and product development, drawn to tools that let small teams ship at the speed of big ones.",
-    "This section should be replaced with the real bio once resume/content is provided.",
+    "JP is a Paid Social specialist with 3+ years managing Meta and TikTok ad campaigns from $3K to $60K/month in spend — running full campaign lifecycles (audience strategy, creative direction, testing, scaling) for clients across real estate, e-commerce, and multi-location service businesses.",
+    "That performance-marketing background is paired with hands-on no-code/low-code development: building and deploying web and mobile apps with Bubble.io, Webflow, and Softr, and wiring up the automations and databases (Xano, Airtable, Zapier) that keep them running.",
+    "Before either of those, JP worked as a compliance monitoring analyst at Citibank, auditing identity and access records for accuracy — the same attention to detail that now shows up in campaign reporting and client-facing dashboards. Based in the Philippines, working remote-first with teams across time zones.",
   ],
 };
 
-// PLACEHOLDER — group real toolset here once confirmed.
 export const skillGroups = [
   {
-    label: "Media Buying",
-    items: ["Meta Ads", "Google Ads", "TikTok Ads", "Creative Testing", "Attribution & Analytics"],
-  },
-  {
-    label: "Development",
-    items: ["JavaScript/TypeScript", "React", "Next.js", "API Integrations"],
+    label: "Media Buying (Ads)",
+    items: [
+      "Meta Ads Manager",
+      "TikTok Ads Manager",
+      "Campaign Optimization & Scaling",
+      "A/B Testing & Creative Analysis",
+      "Audience Targeting",
+      "Ad Copywriting",
+    ],
   },
   {
     label: "No-Code / Low-Code",
-    items: ["Webflow", "Framer", "Bubble", "Zapier / Make", "Airtable"],
+    items: ["Bubble.io", "Webflow", "Softr", "Xano", "Adalo / Glide / FlutterFlow", "Zapier"],
+  },
+  {
+    label: "Analyst & Reporting",
+    items: [
+      "Google Analytics",
+      "TripleWhale / MagicBrief",
+      "Compliance Auditing",
+      "Data Integrity Reviews",
+      "Airtable",
+      "Structured Reporting",
+    ],
   },
 ];
 
@@ -55,35 +67,38 @@ export type Project = {
   href?: string;
 };
 
-// PLACEHOLDER — swap in real project data (title/summary/tags/link).
 export const projects: Project[] = [
   {
     id: "project-01",
-    title: "Project One",
-    summary: "Placeholder project summary — replace with a real case study or build.",
-    tags: ["Media Buying", "Analytics"],
+    title: "Scaling Paid Social to $60K/Mo",
+    summary:
+      "Full-funnel Facebook & TikTok campaigns for a POD apparel brand — scaling ad spend from $40K to $60K/month while cutting CPA and improving ROAS through continuous creative and audience testing.",
+    tags: ["Meta Ads", "TikTok Ads", "Scaling"],
     status: "unlocked",
   },
   {
     id: "project-02",
-    title: "Project Two",
-    summary: "Placeholder project summary — replace with a real case study or build.",
-    tags: ["No-Code", "Automation"],
+    title: "Multi-Client Meta Ads Ops",
+    summary:
+      "Running paid social for 4–5 companies at once inside Meta Ads Manager — audience targeting, creative direction, and budget allocation per client, lifting CTR from under 2% to above 3%.",
+    tags: ["Meta Ads", "Multi-Client", "Optimization"],
     status: "unlocked",
   },
   {
     id: "project-03",
-    title: "Project Three",
-    summary: "Placeholder project summary — replace with a real case study or build.",
-    tags: ["Development", "Web App"],
+    title: "Compliant Real Estate Lead Gen",
+    summary:
+      "Facebook lead-gen campaigns for a real estate company, working within Housing Special Ad Category restrictions while lowering cost per lead through audience refinement.",
+    tags: ["Meta Ads", "Lead Gen", "Compliance"],
     status: "unlocked",
   },
   {
     id: "project-04",
-    title: "Next Build",
-    summary: "Placeholder — reserved slot for a project in progress.",
-    tags: ["Coming Soon"],
-    status: "in-progress",
+    title: "No-Code Web & Mobile Builds",
+    summary:
+      "Built and deployed web and mobile apps with Bubble.io, Webflow, and Softr, backed by Xano and Airtable databases and Zapier automations.",
+    tags: ["No-Code", "Low-Code", "Automation"],
+    status: "unlocked",
   },
 ];
 
@@ -94,25 +109,41 @@ export type ExperienceEntry = {
   description: string;
 };
 
-// PLACEHOLDER — replace with real resume timeline once provided.
 export const experience: ExperienceEntry[] = [
   {
-    period: "20XX — Present",
-    title: "Media Buyer",
-    org: "Placeholder Company",
-    description: "Placeholder description of role and impact — swap in resume content.",
+    period: "Dec 2024 — Present",
+    title: "Digital Marketing Specialist — Paid Social",
+    org: "Intrinsic Digital",
+    description:
+      "Manage Meta paid social for 4–5 multi-location companies at once — audience targeting, creative direction, and budget allocation. Lifted CTR from under 2% to above 3% through structured creative testing, averaging 7–15 conversions per location a month.",
   },
   {
-    period: "20XX — 20XX",
-    title: "Software Developer (No-Code/Low-Code)",
-    org: "Placeholder Company",
-    description: "Placeholder description of role and impact — swap in resume content.",
+    period: "Aug 2023 — Nov 2024",
+    title: "No-Code / Low-Code Developer",
+    org: "Estel Studio",
+    description:
+      "Built and deployed web and mobile apps with Bubble.io, Webflow, and Softr; automated workflows with Adalo, Glide, and FlutterFlow; managed structured databases in Xano and Airtable.",
   },
   {
-    period: "20XX — 20XX",
-    title: "Earlier Role",
-    org: "Placeholder Company",
-    description: "Placeholder description of role and impact — swap in resume content.",
+    period: "Jul 2023 — Aug 2024",
+    title: "Facebook Media Buyer",
+    org: "Real Estate Company",
+    description:
+      "Managed $3K–$5K/month Facebook campaigns within Housing Special Ad Category restrictions, cutting cost per lead through audience refinement and bi-weekly performance reporting.",
+  },
+  {
+    period: "Mar 2023 — May 2024",
+    title: "Compliance Monitoring Infrastructure Analyst",
+    org: "Citibank",
+    description:
+      "Audited user identity and access records in a regulated environment — system log reviews, discrepancy flagging, and structured compliance reporting.",
+  },
+  {
+    period: "Mar 2022 — Jul 2023",
+    title: "Facebook & TikTok Media Buyer",
+    org: "POD Apparel Brand",
+    description:
+      "Managed $40K–$60K/month across Facebook and TikTok, running full-funnel campaigns and continuous creative/audience/bidding tests to improve CPA and ROAS.",
   },
 ];
 
@@ -141,8 +172,9 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
-// PLACEHOLDER — replace with real email + LinkedIn URL once provided.
+// Email pulled from the resume (clearly a business/contact address, not personal).
+// LinkedIn is still a placeholder — swap in the real profile URL once provided.
 export const contact = {
-  email: "you@example.com",
+  email: "jpcartagena.business@gmail.com",
   linkedin: "https://www.linkedin.com/in/your-profile",
 };
