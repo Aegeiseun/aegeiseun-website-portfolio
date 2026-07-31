@@ -1,18 +1,12 @@
 import ScrollReveal from "@/components/ScrollReveal";
+import SectionIntro from "@/components/SectionIntro";
 import { experience } from "@/lib/content";
 
 export default function Experience() {
   return (
     <section id="experience" className="scroll-mt-28 bg-panel/40 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-3xl">
-        <ScrollReveal>
-          <span className="font-hud text-xs uppercase tracking-[0.3em] text-magenta">
-            04 // Quest Log
-          </span>
-          <h2 className="mt-3 font-display text-3xl text-text-hi sm:text-4xl">
-            Experience
-          </h2>
-        </ScrollReveal>
+        <SectionIntro index="04" label="Quest Log" heading="Experience" />
 
         <ol className="relative mt-12 flex flex-col gap-10 border-l border-panel-border pl-8">
           {experience.map((entry, i) => (

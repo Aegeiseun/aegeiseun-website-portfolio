@@ -1,19 +1,13 @@
 import Image from "next/image";
 import ScrollReveal from "@/components/ScrollReveal";
+import SectionIntro from "@/components/SectionIntro";
 import { about } from "@/lib/content";
 
 export default function About() {
   return (
     <section id="about" className="scroll-mt-28 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-4xl">
-        <ScrollReveal>
-          <span className="font-hud text-xs uppercase tracking-[0.3em] text-magenta">
-            01 // Character Profile
-          </span>
-          <h2 className="mt-3 font-display text-3xl text-text-hi sm:text-4xl">
-            {about.heading}
-          </h2>
-        </ScrollReveal>
+        <SectionIntro index="01" label="Character Profile" heading={about.heading} />
 
         <div className="mt-10 grid gap-10 md:grid-cols-[240px_1fr] md:items-start">
           <ScrollReveal>

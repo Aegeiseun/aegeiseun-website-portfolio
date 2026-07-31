@@ -2,20 +2,14 @@
 
 import { motion } from "motion/react";
 import ScrollReveal from "@/components/ScrollReveal";
+import SectionIntro from "@/components/SectionIntro";
 import { projects } from "@/lib/content";
 
 export default function Projects() {
   return (
     <section id="projects" className="scroll-mt-28 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-5xl">
-        <ScrollReveal>
-          <span className="font-hud text-xs uppercase tracking-[0.3em] text-magenta">
-            03 // Unlockables
-          </span>
-          <h2 className="mt-3 font-display text-3xl text-text-hi sm:text-4xl">
-            Projects
-          </h2>
-        </ScrollReveal>
+        <SectionIntro index="03" label="Unlockables" heading="Projects" />
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
           {projects.map((project, i) => {

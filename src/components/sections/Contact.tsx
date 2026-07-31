@@ -1,17 +1,13 @@
 import ScrollReveal from "@/components/ScrollReveal";
+import SectionIntro from "@/components/SectionIntro";
 import { contact } from "@/lib/content";
 
 export default function Contact() {
   return (
     <section id="contact" className="scroll-mt-28 bg-panel/40 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-2xl text-center">
-        <ScrollReveal>
-          <span className="font-hud text-xs uppercase tracking-[0.3em] text-magenta">
-            06 // Continue?
-          </span>
-          <h2 className="mt-3 font-display text-3xl text-text-hi sm:text-4xl">
-            Contact
-          </h2>
+        <SectionIntro index="06" label="Continue?" heading="Contact" />
+        <ScrollReveal delay={0.15}>
           <p className="mt-4 text-base text-text-mid sm:text-lg">
             Open to new projects and opportunities — reach out directly.
           </p>

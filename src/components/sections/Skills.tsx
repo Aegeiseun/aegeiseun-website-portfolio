@@ -1,18 +1,12 @@
 import ScrollReveal from "@/components/ScrollReveal";
+import SectionIntro from "@/components/SectionIntro";
 import { skillGroups } from "@/lib/content";
 
 export default function Skills() {
   return (
     <section id="skills" className="scroll-mt-28 bg-panel/40 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-5xl">
-        <ScrollReveal>
-          <span className="font-hud text-xs uppercase tracking-[0.3em] text-magenta">
-            02 // Inventory
-          </span>
-          <h2 className="mt-3 font-display text-3xl text-text-hi sm:text-4xl">
-            Skills &amp; Tools
-          </h2>
-        </ScrollReveal>
+        <SectionIntro index="02" label="Inventory" heading="Skills & Tools" />
 
         <div className="mt-10 grid gap-6 sm:grid-cols-3">
           {skillGroups.map((group, i) => (
