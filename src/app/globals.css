@@ -196,3 +196,15 @@ body.custom-cursor * {
     display: none;
   }
 }
+
+/* Boot screen loading-bar fill */
+.boot-bar {
+  transform: scaleX(0);
+  animation: boot-fill 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes boot-fill {
+  to {
+    transform: scaleX(1);
+  }
+}

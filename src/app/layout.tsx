@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Pixelify_Sans, Space_Grotesk, Space_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import BootScreen from "@/components/BootScreen";
 import CursorTrail from "@/components/CursorTrail";
 import "./globals.css";
 
@@ -62,6 +63,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-void text-text-hi">
         {children}
         <CursorTrail />
+        <BootScreen />
         <Analytics />
       </body>
     </html>
