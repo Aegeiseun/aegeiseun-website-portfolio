@@ -3,7 +3,7 @@ import { experience } from "@/lib/content";
 
 export default function Experience() {
   return (
-    <section id="experience" className="scroll-mt-20 bg-panel/40 px-6 py-24 sm:py-32">
+    <section id="experience" className="scroll-mt-28 bg-panel/40 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-3xl">
         <ScrollReveal>
           <span className="font-hud text-xs uppercase tracking-[0.3em] text-magenta">

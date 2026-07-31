@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { navItems } from "@/lib/content";
+import ScrollProgress from "@/components/ScrollProgress";
 
 export default function Nav() {
   const [activeId, setActiveId] = useState<string>("");
@@ -86,6 +87,8 @@ export default function Nav() {
           />
         </button>
       </nav>
+
+      <ScrollProgress />
 
       {menuOpen && (
         <ul className="flex flex-col gap-1 border-t border-panel-border bg-void px-5 py-4 font-hud text-sm uppercase tracking-widest md:hidden">

@@ -3,7 +3,7 @@ import { skillGroups } from "@/lib/content";
 
 export default function Skills() {
   return (
-    <section id="skills" className="scroll-mt-20 bg-panel/40 px-6 py-24 sm:py-32">
+    <section id="skills" className="scroll-mt-28 bg-panel/40 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-5xl">
         <ScrollReveal>
           <span className="font-hud text-xs uppercase tracking-[0.3em] text-magenta">

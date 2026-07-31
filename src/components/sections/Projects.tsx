@@ -6,7 +6,7 @@ import { projects } from "@/lib/content";
 
 export default function Projects() {
   return (
-    <section id="projects" className="scroll-mt-20 px-6 py-24 sm:py-32">
+    <section id="projects" className="scroll-mt-28 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-5xl">
         <ScrollReveal>
           <span className="font-hud text-xs uppercase tracking-[0.3em] text-magenta">
