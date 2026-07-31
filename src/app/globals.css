@@ -96,3 +96,103 @@ body {
   background: var(--color-magenta);
   color: var(--color-void);
 }
+
+/* Custom cursor + trail — only enabled by CursorTrail.tsx on fine-pointer,
+   motion-ok devices. Elements default to invisible so nothing shows up
+   (stuck at the top-left corner) if the JS never activates them. */
+body.custom-cursor,
+body.custom-cursor * {
+  cursor: none;
+}
+
+.cursor-reticle,
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.cursor-reticle {
+  width: 26px;
+  height: 26px;
+  transition: opacity 0.2s ease;
+}
+
+.cursor-corner {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-color: var(--color-cyan);
+  transition: border-color 0.15s ease;
+}
+
+.cursor-reticle.cursor-hover .cursor-corner {
+  border-color: var(--color-magenta);
+}
+
+.cursor-corner-tl {
+  top: 0;
+  left: 0;
+  border-left: 2px solid;
+  border-top: 2px solid;
+}
+
+.cursor-corner-tr {
+  top: 0;
+  right: 0;
+  border-right: 2px solid;
+  border-top: 2px solid;
+}
+
+.cursor-corner-bl {
+  bottom: 0;
+  left: 0;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.cursor-corner-br {
+  bottom: 0;
+  right: 0;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.cursor-dot-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3px;
+  height: 3px;
+  background: var(--color-cyan);
+  transform: translate(-50%, -50%);
+  transition: background-color 0.15s ease;
+}
+
+.cursor-reticle.cursor-hover .cursor-dot-center {
+  background: var(--color-magenta);
+}
+
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+}
+
+.cursor-dot-cyan {
+  background: var(--color-cyan);
+  box-shadow: 0 0 6px rgba(0, 240, 255, 0.7);
+}
+
+.cursor-dot-magenta {
+  background: var(--color-magenta);
+  box-shadow: 0 0 6px rgba(255, 46, 136, 0.6);
+}
+
+@media (prefers-reduced-motion: reduce), (pointer: coarse) {
+  .cursor-reticle,
+  .cursor-dot {
+    display: none;
+  }
+}
