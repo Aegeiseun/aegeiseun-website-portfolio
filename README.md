@@ -1,6 +1,6 @@
-# Aegeiseun — Portfolio
+# JP — Portfolio
 
-One-page, scroll-driven portfolio for Aegeiseun (Media Buyer & Software Developer). Dark neon-HUD / retro-pixel design direction — see [CLAUDE.md](CLAUDE.md) for full details.
+One-page, scroll-driven portfolio for JP (Media Buyer & Software Developer). Dark neon-HUD / retro-pixel design direction — see [CLAUDE.md](CLAUDE.md) for full details.
 
 ## Stack
 

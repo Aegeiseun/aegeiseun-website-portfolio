@@ -42,7 +42,7 @@ export default async function Image() {
             letterSpacing: 2,
           }}
         >
-          AEGEISEUN
+          JP
         </span>
         <span
           style={{

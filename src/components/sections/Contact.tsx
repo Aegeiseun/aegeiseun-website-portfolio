@@ -42,7 +42,7 @@ export default function Contact() {
         </ScrollReveal>
 
         <p className="mt-10 font-hud text-[10px] uppercase tracking-widest text-text-mid">
-          © {new Date().getFullYear()} Aegeiseun
+          © {new Date().getFullYear()} JP
         </p>
       </div>
     </section>

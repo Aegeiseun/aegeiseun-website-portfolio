@@ -41,7 +41,7 @@ export default function Nav() {
           href="#hero"
           className="font-display text-sm tracking-wide text-cyan text-glow-cyan sm:text-base"
         >
-          AEGEISEUN
+          JP
         </a>
 
         <ul className="hidden items-center gap-6 font-hud text-xs uppercase tracking-widest md:flex">

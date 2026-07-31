@@ -14,7 +14,7 @@ export const navItems: NavItem[] = [
 
 export const hero = {
   eyebrow: "Player One",
-  name: "Aegeiseun",
+  name: "JP",
   role: "Media Buyer & Software Developer",
   tagline:
     "I build and ship — campaigns that convert, and products built with no-code/low-code tools. Placeholder tagline, swap for real copy.",
@@ -24,7 +24,7 @@ export const hero = {
 export const about = {
   heading: "About",
   paragraphs: [
-    "Placeholder bio: Aegeiseun is a media buyer and software developer who treats every campaign and every build like a system to be optimized — the kind of person equally comfortable in an ads dashboard and a no-code editor.",
+    "Placeholder bio: JP is a media buyer and software developer who treats every campaign and every build like a system to be optimized — the kind of person equally comfortable in an ads dashboard and a no-code editor.",
     "Placeholder: years of experience spanning performance marketing and product development, drawn to tools that let small teams ship at the speed of big ones.",
     "This section should be replaced with the real bio once resume/content is provided.",
   ],
@@ -125,17 +125,17 @@ export type Testimonial = {
 // PLACEHOLDER — replace with real client/colleague quotes once provided.
 export const testimonials: Testimonial[] = [
   {
-    quote: "Placeholder testimonial quote about working with Aegeiseun.",
+    quote: "Placeholder testimonial quote about working with JP.",
     name: "Client Name",
     role: "Role, Company",
   },
   {
-    quote: "Placeholder testimonial quote about working with Aegeiseun.",
+    quote: "Placeholder testimonial quote about working with JP.",
     name: "Client Name",
     role: "Role, Company",
   },
   {
-    quote: "Placeholder testimonial quote about working with Aegeiseun.",
+    quote: "Placeholder testimonial quote about working with JP.",
     name: "Client Name",
     role: "Role, Company",
   },

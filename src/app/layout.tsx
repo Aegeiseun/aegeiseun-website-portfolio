@@ -25,22 +25,22 @@ const siteUrl = "https://aegeiseun-website-portfolio.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Aegeiseun — Media Buyer & Software Developer",
+  title: "JP — Media Buyer & Software Developer",
   description:
-    "Aegeiseun is a Media Buyer and Software Developer building with no-code/low-code tools. Explore projects, experience, and get in touch.",
+    "JP is a Media Buyer and Software Developer building with no-code/low-code tools. Explore projects, experience, and get in touch.",
   openGraph: {
-    title: "Aegeiseun — Media Buyer & Software Developer",
+    title: "JP — Media Buyer & Software Developer",
     description:
-      "Aegeiseun is a Media Buyer and Software Developer building with no-code/low-code tools. Explore projects, experience, and get in touch.",
+      "JP is a Media Buyer and Software Developer building with no-code/low-code tools. Explore projects, experience, and get in touch.",
     url: siteUrl,
-    siteName: "Aegeiseun",
+    siteName: "JP",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aegeiseun — Media Buyer & Software Developer",
+    title: "JP — Media Buyer & Software Developer",
     description:
-      "Aegeiseun is a Media Buyer and Software Developer building with no-code/low-code tools.",
+      "JP is a Media Buyer and Software Developer building with no-code/low-code tools.",
   },
 };
 
