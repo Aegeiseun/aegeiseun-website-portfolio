@@ -172,9 +172,7 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
-// Email pulled from the resume (clearly a business/contact address, not personal).
-// LinkedIn is still a placeholder — swap in the real profile URL once provided.
 export const contact = {
   email: "jpcartagena.business@gmail.com",
-  linkedin: "https://www.linkedin.com/in/your-profile",
+  linkedin: "https://www.linkedin.com/in/jpcartagena21/",
 };
